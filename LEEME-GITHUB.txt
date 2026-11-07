@@ -1,0 +1,18 @@
+IRON SECTOR - PROYECTO PARA GITHUB
+
+1. Descomprime este ZIP.
+2. Sube su contenido a la raiz de tu repositorio de GitHub.
+   Sube los archivos extraidos, no solamente el ZIP.
+3. El punto de entrada de la web es index.html; el juego esta en dist/.
+   La estructura es compatible con alojamiento estatico, incluido GitHub Pages.
+
+No necesitas npm install ni compilar. La biblioteca grafica esta incluida.
+
+Para jugar localmente, abre dist/index.html en el navegador.
+Si necesitas un servidor, ejecuta node server.cjs y visita:
+http://127.0.0.1:8765
+
+Pruebas de logica: node test.cjs
+Controles y detalles: README.md
+
+El paquete no incluye historial .git, credenciales ni configuracion de Sites.
